@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #F4D8CD;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3A2E39;
+}
+
+.div-pontuacao {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.5em;
+}
+
+#pontuacao {
+    margin-left: 10px;
+    font-weight: 900;
+    color: #F15152;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.links a>i {
+    color: #F4D8CD;
+    font-size: 2em;
+    transition: color .3s ease;
+}
+
+.links a>i:hover{
+    color: #F15152;
+}
+
